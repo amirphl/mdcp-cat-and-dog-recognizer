@@ -3,3 +3,9 @@
 /out/
 /*.iml
 /target/
+.classpath
+.factorypath
+.project
+.settings
+.vscode
+model.zip
