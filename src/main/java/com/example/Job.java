@@ -25,7 +25,7 @@ public class Job {
     private static final String MODEL_URL = "https://dl.dropboxusercontent.com/s/tqnp49apphpzb40/dataTraining.zip?dl=0";
     // private static final String MODEL_URL =
     // "http://localhost:7979/static/model.zip"; // if you want to download model
-    // faster, upload it in local nginx in local filesystem
+    // faster, upload it in local nginx or local filesystem
     private static ComputationGraph computationGraph;
     private static String MODEL_ZIP_FILE_PATH = "/cat-and-dog-recognizer/model.zip";
     private static double THRESHOLD = 0.5;
